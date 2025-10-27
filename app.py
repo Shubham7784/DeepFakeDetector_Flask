@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from src.inference import load_model, predict
+from inference import load_model, predict
 from PIL import Image
 import io, os
 
